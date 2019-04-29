@@ -1,0 +1,28 @@
+[
+  {
+    "namespace": "mock.user",
+    "name": "MockUserKey",
+    "type": "record",
+    "fields": [
+      {
+        "name": "id",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "namespace": "mock.user",
+    "name": "MockUser",
+    "type": "record",
+    "fields": [
+      {
+        "name": "id",
+        "type": "string"
+      },
+      {
+        "name": "name",
+        "type": "string"
+      }
+    ]
+  }
+]
